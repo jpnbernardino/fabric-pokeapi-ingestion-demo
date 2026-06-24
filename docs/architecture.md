@@ -3,13 +3,11 @@
 ## Purpose
 
 This project demonstrates a simple Lakehouse data processing architecture using public API data.
-
-The project follows a Bronze, Silver, and Gold pattern.
+The project follows a Medallion Architecture pattern.
 
 ## Source
 
 The source system is the public PokeAPI.
-
 The API provides JSON data about Pokémon, including:
 
 - ID
@@ -24,14 +22,12 @@ The API provides JSON data about Pokémon, including:
 ## Bronze layer
 
 The Bronze layer stores raw API responses with minimal transformation.
-
 The purpose of the Bronze layer is to preserve the source data as closely as possible.
 
 
 ## Silver layer
 
 The Silver layer contains cleaned and structured Delta tables.
-
 The raw nested JSON is converted into relational-style tables:
 
 - `silver_pokemon`

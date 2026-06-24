@@ -22,7 +22,7 @@ silver_abilities_table = "silver_pokemon_abilities"
 
 
 
-# Defining the fields
+# Defining the schema
 # --------------------
 
 pokemon_schema = StructType([
@@ -58,7 +58,7 @@ pokemon_schema = StructType([
 
 
 
-# Read Bronze
+# Read from Bronze
 # ------------
 
 bronze_df = spark.table(bronze_table)

@@ -6,54 +6,28 @@ Microsoft Fabric Lakehouse API Ingestion and Transformation Demo
 
 ## Evidence category
 
-Professional Artefact
+Professional Work Artefact
 
 ## Summary
 
-This artefact is a personal demonstration project created to show current professional skills in API ingestion, PySpark data transformation, Lakehouse data processing, Delta table creation, and reporting table preparation.
+This artefact is a personal demonstration project created to show current skills in data orchestration using PySpark - API ingestion, data transformation, Lakehouse data processing, and reporting table preparation.
 
-The project uses public data from the PokeAPI and follows a Bronze, Silver, and Gold data processing pattern.
-
-## Reason for using a personal demonstration project
-
-In my professional work, I develop data ingestion, transformation, and reporting solutions using technologies such as SQL, PySpark, Microsoft Fabric, data warehousing tools, and BI platforms.
-
-However, production scripts and database logic written for employers may contain confidential business logic, internal system details, client data, or employer-owned intellectual property. For that reason, this artefact was created independently using public data instead of employer-owned scripts.
-
-This project does not contain:
-
-- employer-owned code
-- production schemas
-- internal database names
-- internal server names
-- credentials
-- client data
-- resident or patient data
-- confidential business rules
-- proprietary transformation logic
-- private API endpoints
+The project uses public data from the PokeAPI and follows a Medallion Architecture (Bronze, Silver, and Gold) data processing pattern.
 
 ## Skills demonstrated
 
 This artefact demonstrates the following skills:
 
-- REST API ingestion using Python
+- REST API ingestion using PySpark
 - JSON response handling
-- raw data landing into a Bronze layer
 - PySpark transformation logic
-- nested JSON processing
-- array flattening
-- Delta table creation
-- Silver layer curation
-- Gold layer reporting table preparation
+- nested JSON processing and array flattening
 - validation checks
 - documentation of architecture and data flow
 
 ## Relevance to nominated occupation
 
-The artefact is relevant to ICT roles involving software development, data engineering, database development, analytics engineering, and business intelligence development.
-
-The project demonstrates the ability to design and implement a small end-to-end data processing workflow from source API ingestion through to reporting-ready tables.
+The artefact aims to prove relevant skills to the Developer Programmer ANZSCO code (261312)
 
 ## Project components
 
@@ -71,7 +45,6 @@ The project contains three notebooks:
 3. `03_NB_SilverToGold_PokemonAPI.py`
    - Creates Gold reporting tables.
    - Produces type-level and Pokémon-level summary outputs.
-   - Performs validation checks.
 
 ## Statement of authorship
 

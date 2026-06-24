@@ -39,7 +39,7 @@ print("Ability rows:", abilities_df.count())
 
 
 
-# Gold table 1: summary by type
+# Gold table 1: Summary by type
 # ------------------------------
 
 type_summary_df = (
@@ -71,7 +71,7 @@ print("Saved:", gold_type_summary_table)
 
 
 
-# Gold table 2: one row per pokemon
+# Gold table 2: One row per pokemon
 # -----------------------------------
 
 type_count_df = (
