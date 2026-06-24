@@ -3,7 +3,7 @@
 ## Purpose
 
 This project demonstrates a simple Lakehouse data processing architecture using public API data.
-The project follows a Medallion Architecture pattern.
+The project follows a Medallion Architecture pattern and a framework that I closely mimic in actual work projects.
 
 ## Source
 
@@ -17,17 +17,16 @@ The API provides JSON data about Pokémon, including:
 - base experience
 - types
 - abilities
-- source URLs
 
 ## Bronze layer
 
 The Bronze layer stores raw API responses with minimal transformation.
-The purpose of the Bronze layer is to preserve the source data as closely as possible.
+The purpose of this layer is to preserve the source data.
 
 
 ## Silver layer
 
-The Silver layer contains cleaned and structured Delta tables.
+The Silver layer contains lightly-transformed, cleansed and structured Delta tables.
 The raw nested JSON is converted into relational-style tables:
 
 - `silver_pokemon`
@@ -37,15 +36,13 @@ The raw nested JSON is converted into relational-style tables:
 
 ## Gold layer
 
-The Gold layer contains reporting-ready tables.
-
+The Gold layer contains "curated" reporting-ready tables.
 The Gold tables are:
 
 - `gold_pokemon_type_summary`
 - `gold_pokemon_profile`
 
 These tables support simple reporting and analysis, such as:
-
 - number of Pokémon by type
 - average height by type
 - average weight by type
