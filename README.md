@@ -22,25 +22,16 @@ The project demonstrates a simple Bronze, Silver, and Gold data processing patte
    - Produces type-level and profile-level summaries.
    - Adds validation checks and row count outputs.
 
-This project was created as a personal professional artefact. It is intended to demonstrate current skills in API ingestion, PySpark, Lakehouse design, Delta tables, and data transformation.
-
-## Important confidentiality statement
-
-This repository does not contain employer-owned code, internal database schemas, production data, client data, credentials, internal URLs, proprietary business rules, or confidential information.
-
-All data used by this project comes from the public PokeAPI.
 
 ## Technologies demonstrated
 
 - Microsoft Fabric Lakehouse concepts
 - PySpark
-- Python
 - REST API ingestion
 - JSON processing
 - Bronze/Silver/Gold data layering
 - Delta table writes
-- Data quality and validation checks
-- Basic dimensional/reporting-style modelling
+- Dimensional/reporting-style modelling
 
 ## Project flow
 
