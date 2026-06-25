@@ -45,9 +45,3 @@ The project contains three notebooks:
 3. `03_NB_SilverToGold_PokemonAPI.py`
    - Creates Gold reporting tables.
    - Produces type-level and Pokémon-level summary outputs.
-
-## Statement of authorship
-
-This artefact was created by me as a personal professional demonstration project.
-
-The project was created independently and does not include confidential material from any employer or client.
